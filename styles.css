@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Winky Rough", sans-serif;
+    overflow: hidden;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 60%;
+    align-items: center;
+    font-size: 50px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 5px;
+}
+
+button{
+    width: 100%;
+    background-color: #333;
+    color: white;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+input {
+    font-size: 20px;
+    width: 100%;
+    padding: 5px 5px;
+    box-sizing: border-box;
+}
+
+.cell {
+    box-sizing: border-box;
+    transition: background-color 0.2s ease; /* optional */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 200px;
+}
+
